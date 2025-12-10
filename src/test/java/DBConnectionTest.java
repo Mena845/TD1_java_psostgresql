@@ -11,7 +11,6 @@ public class DBConnectionTest {
     public void testConnectionNotNull() {
         DBConnection db = new DBConnection();
         Connection conn = db.getDBConnection();
-
         assertNotNull(conn, "La connexion ne devrait pas être nulle");
     }
 }
