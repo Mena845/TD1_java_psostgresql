@@ -1,6 +1,9 @@
 import org.junit.jupiter.api.Test;
-
+import Class.DataRetriever;
+import Class.Category;
+import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class DataRetrieverCategoryTest {
 
