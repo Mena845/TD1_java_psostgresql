@@ -17,6 +17,9 @@ public class Product {
         this.creationDatetime = creationDatetime;
     }
 
+    public Product(int id, String name, double price, Instant creationDatetime) {
+    }
+
     public int getId() {
         return id;
     }
