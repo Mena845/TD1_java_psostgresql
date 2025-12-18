@@ -12,7 +12,6 @@ import java.util.List;
 
 public class DataRetriever {
 
-
     public List<Category> getAllCategories() throws SQLException {
         List<Category> categories = new ArrayList<>();
 
